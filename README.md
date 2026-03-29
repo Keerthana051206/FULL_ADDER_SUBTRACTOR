@@ -67,7 +67,7 @@ Write the detailed procedure here
 Developed by: Keerthana C
 RegisterNumber: 212224220047
 */
-
+```
 module fulladd_top(a,b,c,sum,carry,BO,DIFF);
 input a,b,c;
 output sum,carry,BO,DIFF;
@@ -78,6 +78,7 @@ not (a0,a);
 assign BO= b&c | a0&c | a0&b;
 assign DIFF=a^b^c;
 endmodule
+```
 
 **RTL Schematic**
 <img width="341" alt="image" src="https://github.com/user-attachments/assets/36bebb7c-8f39-4df9-8a4f-a63ef418030e" />
